@@ -1,0 +1,9 @@
+.#*
+\#*
+.env
+bin/run.rb
+pkg
+coverage
+.yardoc
+tmp/
+
