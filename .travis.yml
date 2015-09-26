@@ -1,0 +1,10 @@
+language: ruby
+sudo: false
+rvm:
+- 2.2.3
+env:
+  global:
+  - SERVER_ENV=CI
+  - secure: LqzFLQtLhJPd6c+7vP8AjvrE8/zWmBXTVrXRwYATbL1vGlZMwQ0iZstJmkg1Y5OLGysguGPNakepazKUYiO9oxCG1gFfwMLkax+MRHz0xv5NZG0IAqyB3WxdTacGF2qOiVQZOTATcBb49RP1aJ66UI4RBev2yPgyLPdrtdGTUH6k/idfwmucqTNvavxH70IW86oquhvrHoB2XGx8vHUGxrf1dFNsgleAmL1q/5oys+34hJaohaQz90XIXfGLBzbyyz3StNJY9+Sa8rA/bcVt4a93DvB3Oz4dztFph/7IY+1j2+o0Xin8i/vesjtsrlDKmgR7CkuBc3w8tkv10oqQ897/5K9DrITiuVWbgQTXfOEFWshueAim8/F73YeavdS9v457v3A8+mfvyF6GuXr+PmAoLkvA4N9O35pbN2XrOmF+6Y8mvdg2a24UBiEyW/ExmNlurPOVpssREgH9OkTC6ThnGYjUFDvTGzsJ8zlwYJEdtlK/eoJPTyK7+xZCkO6WLH++KOFkyz8IwhsT99WS4vndM+cSVTA0H4miZRUBVPoOWhA4C6su1Hpbcj1y7wcCZiJYAr3d3+lNm4B+R3Ly28A7iuaZz3hA+pksD4UIQIvHZjwifk//8mFWIoAl2TfW0sRJ4728f2ix76SUvS567K/cgMccj3ZdEEEWg7AI0Ic=
+script:
+- bundle exec rspec
